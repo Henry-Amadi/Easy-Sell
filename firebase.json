@@ -1,0 +1,32 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "easy-sell-59ce3",
+          "appId": "1:714648715098:android:96ac8ad840753f99e4fd63",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "easy-sell-59ce3",
+          "configurations": {
+            "android": "1:714648715098:android:96ac8ad840753f99e4fd63",
+            "ios": "1:714648715098:ios:13630c80ee8234b5e4fd63",
+            "macos": "1:714648715098:ios:13630c80ee8234b5e4fd63",
+            "web": "1:714648715098:web:81727d87d9ebc1eae4fd63",
+            "windows": "1:714648715098:web:3e02d067edc4afcee4fd63"
+          }
+        }
+      }
+    }
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
